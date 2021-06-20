@@ -20,6 +20,7 @@ public class BankAccount {
     public void transfer(int amount) {
         accountBalance += amount;
     }
+
     public int getAccountBalance() {
         return accountBalance;
     }
